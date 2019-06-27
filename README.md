@@ -17,3 +17,9 @@
 
 注解@EnableFeignClients 依赖 org.springframework.cloud:spring-cloud-starter-openfeign
 
+版本0.0.2[熔断器](http://www.ityouknow.com/springcloud/2017/05/16/springcloud-hystrix.html)
+启动consumer 关闭producer 返回hello dream,this message send failed
+<p>
+<src="./github/熔断测试结果.jpg">
+</p>
+

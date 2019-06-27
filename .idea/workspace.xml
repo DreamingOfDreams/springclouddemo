@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cb142c2-041e-4773-baa4-a127b36dc02c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Hystrix/HelloRemoteHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/熔断测试结果.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.gradle/5.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/producer/.gradle/5.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.gradle/5.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/producer/.gradle/5.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.gradle/5.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/producer/.gradle/5.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/out/production/classes/fun/dqgs/consumer/ConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/out/production/classes/fun/dqgs/consumer/ConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/out/production/classes/fun/dqgs/consumer/service/Remote/HelloRemote.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/out/production/classes/fun/dqgs/consumer/service/Remote/HelloRemote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Remote/HelloRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Remote/HelloRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/.gradle/5.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/producer/.gradle/5.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.gradle/5.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/producer/.gradle/5.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/producer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/producer/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/producer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/build/classes/java/main/fun/dqgs/producer/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/producer/build/classes/java/main/fun/dqgs/producer/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/build/libs/producer-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/producer/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/fun/dqgs/producer/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/fun/dqgs/producer/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -115,42 +113,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Remote/HelloRemote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/ConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/producer/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/producer/src/main/java/fun/dqgs/producer/ProducerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -159,8 +126,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <first_editor relative-caret-position="143">
+                <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -168,47 +135,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/controller/ConsumerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="77" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="77" />
+            <state relative-caret-position="60">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/producer/src/main/java/fun/dqgs/producer/controller/HelloController.java">
+        <entry file="file://$PROJECT_DIR$/producer/src/main/java/fun/dqgs/producer/ProducerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="36">
+              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Hystrix/HelloRemoteHystrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/producer/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -237,24 +190,25 @@
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/producer/src/main/java/fun/dqgs/producer/ProducerApplication.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/consumer/build.gradle" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/HelloService.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Remote/HelloService.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Remote/HelloRemote.java" />
         <option value="$PROJECT_DIR$/HELP.md" />
         <option value="$PROJECT_DIR$/producer/src/main/java/fun/dqgs/producer/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/producer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/producer/build.gradle" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Hystrix/HelloRemoteHystrix.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Remote/HelloRemote.java" />
+        <option value="$PROJECT_DIR$/consumer/build.gradle" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="111" />
-    <option name="y" value="57" />
+    <option name="x" value="303" />
+    <option name="y" value="228" />
     <option name="width" value="1570" />
     <option name="height" value="980" />
   </component>
@@ -272,6 +226,75 @@
               <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="consumer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="consumer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="consumer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="consumer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="consumer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="consumer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="consumer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="consumer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -286,7 +309,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561640385006" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561643904063" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GdeiAssistant-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -298,6 +321,7 @@
       <recent name="E:\ideaProject\clouddemo\prodecer\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaProject\clouddemo\github" />
       <recent name="E:\ideaProject\clouddemo\producer\src\main\resources" />
     </key>
   </component>
@@ -313,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.producer [bootJar]">
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
     <configuration name="eureka [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -466,8 +490,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.producer [clean]" />
         <item itemvalue="Gradle.producer [bootJar]" />
+        <item itemvalue="Gradle.producer [clean]" />
         <item itemvalue="Gradle.eureka [bootJar]" />
       </list>
     </recent_temporary>
@@ -483,18 +507,18 @@
       <option name="presentableId" value="Default" />
       <updated>1561561345167</updated>
       <workItem from="1561561348446" duration="12206000" />
-      <workItem from="1561634556717" duration="5043000" />
+      <workItem from="1561634556717" duration="6801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17249000" />
+    <option name="totallyTimeSpent" value="19007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1769437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -504,8 +528,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1997319" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19705094" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1997319" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.45174262" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -593,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -607,43 +624,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Remote/HelloRemote.java">
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/fun/dqgs/eureka/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/build.gradle">
+    <entry file="file://$PROJECT_DIR$/producer/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="77" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="77" />
+        <state relative-caret-position="144">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/ConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/producer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -659,43 +661,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/producer/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        <state relative-caret-position="252">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/producer/src/main/java/fun/dqgs/producer/ProducerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="36">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/producer/build.gradle">
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Hystrix/HelloRemoteHystrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/fun/dqgs/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="162">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/fun/dqgs/consumer/service/Remote/HelloRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github/熔断测试结果.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <first_editor relative-caret-position="143">
+            <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
