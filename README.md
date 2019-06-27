@@ -20,6 +20,6 @@
 版本0.0.2[熔断器](http://www.ityouknow.com/springcloud/2017/05/16/springcloud-hystrix.html)
 启动consumer 关闭producer 返回hello dream,this message send failed
 <p>
-<src="./github/hystrixtest.jpg">
+<img src="./github/hystrixtest.jpg">
 </p>
 
