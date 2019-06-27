@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+out
+gradlew
+gradlew.bat
+src/test/
+.gradle/
+build/
+gradle/
+lib/
+classes/
+gdeiassistant-webapp.iml
+local.properties

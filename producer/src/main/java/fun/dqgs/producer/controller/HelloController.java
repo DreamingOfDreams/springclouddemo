@@ -6,9 +6,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @RequestMapping("/hello")
+
+    /*  @RequestMapping("/hello")
     public String index(@RequestParam String name) {
 
         return "hello "+name+"，this is first message";
+    }*/
+    //测试负载均衡
+    @RequestMapping("/hello")
+    public String index(@RequestParam String name) {
+        return "hello "+name+"，this is producer2 send first message";
     }
 }
