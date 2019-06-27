@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="clouddemo.producer.main" target="1.8" />
+      <module name="clouddemo.producer.test" target="1.8" />
+      <module name="fun.dqgs.prodecer.main" target="1.8" />
+      <module name="fun.dqgs.prodecer.test" target="1.8" />
+      <module name="producer.main" target="1.8" />
+      <module name="producer.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
