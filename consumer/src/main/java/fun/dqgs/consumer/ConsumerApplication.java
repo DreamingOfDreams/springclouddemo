@@ -2,7 +2,9 @@ package fun.dqgs.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 //Feign是一个声明式Web Service客户端。使用Feign能让编写Web Service客户端更加简单,
@@ -13,6 +15,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
+@EnableCircuitBreaker
+@EnableHystrixDashboard //启用Hystrix Dashboard
 public class ConsumerApplication {
 
     public static void main(String[] args) {
