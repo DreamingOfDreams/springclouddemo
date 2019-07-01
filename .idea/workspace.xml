@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cb142c2-041e-4773-baa4-a127b36dc02c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-repo/neo-config-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repo/neo-config-pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repo/neo-config-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/new 1.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/fun/dqgs/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/fun/dqgs/configserver/ConfigServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,12 +98,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-server/src/main/java/fun/dqgs/configserver/ConfigServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="90">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding>
+                <element signature="e#259#260#0" expanded="true" />
                 <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
@@ -116,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="180">
+              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -168,9 +172,9 @@
         <option value="$PROJECT_DIR$/consumer/build.gradle" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/config-server/src/main/java/fun/dqgs/configserver/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-server/src/main/java/fun/dqgs/configserver/ConfigServerApplication.java" />
       </list>
     </option>
   </component>
@@ -229,14 +233,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="configserver" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="config-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -251,7 +247,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561952191708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561961401559" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gyzs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -262,6 +258,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaProject\clouddemo\config-repo" />
       <recent name="E:\ideaProject\clouddemo\github" />
       <recent name="E:\ideaProject\clouddemo\producer\src\main\resources" />
     </key>
@@ -513,15 +510,16 @@
       <workItem from="1561561348446" duration="12206000" />
       <workItem from="1561634556717" duration="8686000" />
       <workItem from="1561646543868" duration="1047000" />
-      <workItem from="1561709296730" duration="30382000" />
+      <workItem from="1561709296730" duration="31362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52321000" />
+    <option name="totallyTimeSpent" value="53301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22520107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -534,7 +532,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2627346" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.7372654" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2989276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -824,16 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/fun/dqgs/configserver/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.6.RELEASE/b351c79404e096cc28d45f8395f53cc856989098/spring-boot-2.1.6.RELEASE-sources.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -862,10 +850,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/new 1.res">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="180">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/fun/dqgs/configserver/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
